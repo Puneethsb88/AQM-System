@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		18B7F1BF26FD9D3000BF370B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F1BE26FD9D3000BF370B /* AppDelegate.swift */; };
 		18B7F1C126FD9D3000BF370B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F1C026FD9D3000BF370B /* SceneDelegate.swift */; };
-		18B7F1C326FD9D3000BF370B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F1C226FD9D3000BF370B /* ViewController.swift */; };
 		18B7F1C626FD9D3000BF370B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B7F1C426FD9D3000BF370B /* Main.storyboard */; };
 		18B7F1C826FD9D3200BF370B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B7F1C726FD9D3200BF370B /* Assets.xcassets */; };
 		18B7F1CB26FD9D3200BF370B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B7F1C926FD9D3200BF370B /* LaunchScreen.storyboard */; };
 		18B7F1D626FD9D3200BF370B /* AQMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F1D526FD9D3200BF370B /* AQMTests.swift */; };
 		18B7F1E126FD9D3200BF370B /* AQMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F1E026FD9D3200BF370B /* AQMUITests.swift */; };
+		18B7F20526FD9F4600BF370B /* AQMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F20426FD9F4600BF370B /* AQMViewController.swift */; };
+		18B7F21026FD9F6D00BF370B /* AQMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F20F26FD9F6D00BF370B /* AQMViewModel.swift */; };
+		18B7F21926FDA36000BF370B /* WebSocketServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F21826FDA36000BF370B /* WebSocketServiceProtocol.swift */; };
+		18B7F22426FDA3D200BF370B /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F22326FDA3D200BF370B /* WebSocketService.swift */; };
+		18B7F239270011DB00BF370B /* AQMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F238270011DB00BF370B /* AQMModel.swift */; };
+		18B7F23F2700253E00BF370B /* AQMTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F23D2700253E00BF370B /* AQMTableCell.swift */; };
+		18B7F2402700253E00BF370B /* AQMTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B7F23E2700253E00BF370B /* AQMTableCell.xib */; };
+		18B7F24F27009BC800BF370B /* Float+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7F24E27009BC800BF370B /* Float+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 		18B7F1BB26FD9D3000BF370B /* AQM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B7F1BE26FD9D3000BF370B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B7F1C026FD9D3000BF370B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18B7F1C226FD9D3000BF370B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18B7F1C526FD9D3000BF370B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B7F1C726FD9D3200BF370B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B7F1CA26FD9D3200BF370B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		18B7F1DC26FD9D3200BF370B /* AQMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B7F1E026FD9D3200BF370B /* AQMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQMUITests.swift; sourceTree = "<group>"; };
 		18B7F1E226FD9D3200BF370B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B7F20426FD9F4600BF370B /* AQMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQMViewController.swift; sourceTree = "<group>"; };
+		18B7F20F26FD9F6D00BF370B /* AQMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQMViewModel.swift; sourceTree = "<group>"; };
+		18B7F21826FDA36000BF370B /* WebSocketServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketServiceProtocol.swift; sourceTree = "<group>"; };
+		18B7F22326FDA3D200BF370B /* WebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
+		18B7F238270011DB00BF370B /* AQMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQMModel.swift; sourceTree = "<group>"; };
+		18B7F23D2700253E00BF370B /* AQMTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQMTableCell.swift; sourceTree = "<group>"; };
+		18B7F23E2700253E00BF370B /* AQMTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AQMTableCell.xib; sourceTree = "<group>"; };
+		18B7F24E27009BC800BF370B /* Float+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,11 @@
 		18B7F1BD26FD9D3000BF370B /* AQM */ = {
 			isa = PBXGroup;
 			children = (
+				18B7F24D27009BAB00BF370B /* Uitility */,
+				18B7F21726FDA2E900BF370B /* Sockets */,
+				18B7F1F626FD9E4100BF370B /* UIControllers */,
 				18B7F1BE26FD9D3000BF370B /* AppDelegate.swift */,
 				18B7F1C026FD9D3000BF370B /* SceneDelegate.swift */,
-				18B7F1C226FD9D3000BF370B /* ViewController.swift */,
 				18B7F1C426FD9D3000BF370B /* Main.storyboard */,
 				18B7F1C726FD9D3200BF370B /* Assets.xcassets */,
 				18B7F1C926FD9D3200BF370B /* LaunchScreen.storyboard */,
@@ -126,6 +142,59 @@
 				18B7F1E226FD9D3200BF370B /* Info.plist */,
 			);
 			path = AQMUITests;
+			sourceTree = "<group>";
+		};
+		18B7F1F626FD9E4100BF370B /* UIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18B7F20326FD9F0100BF370B /* Controllers */,
+				18B7F20226FD9EEF00BF370B /* ViewModel */,
+				18B7F1FF26FD9E7F00BF370B /* Model */,
+				18B7F23D2700253E00BF370B /* AQMTableCell.swift */,
+				18B7F23E2700253E00BF370B /* AQMTableCell.xib */,
+			);
+			path = UIControllers;
+			sourceTree = "<group>";
+		};
+		18B7F1FF26FD9E7F00BF370B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B7F238270011DB00BF370B /* AQMModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B7F20226FD9EEF00BF370B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B7F20F26FD9F6D00BF370B /* AQMViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B7F20326FD9F0100BF370B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18B7F20426FD9F4600BF370B /* AQMViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18B7F21726FDA2E900BF370B /* Sockets */ = {
+			isa = PBXGroup;
+			children = (
+				18B7F21826FDA36000BF370B /* WebSocketServiceProtocol.swift */,
+				18B7F22326FDA3D200BF370B /* WebSocketService.swift */,
+			);
+			path = Sockets;
+			sourceTree = "<group>";
+		};
+		18B7F24D27009BAB00BF370B /* Uitility */ = {
+			isa = PBXGroup;
+			children = (
+				18B7F24E27009BC800BF370B /* Float+Color.swift */,
+			);
+			path = Uitility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B7F2402700253E00BF370B /* AQMTableCell.xib in Resources */,
 				18B7F1CB26FD9D3200BF370B /* LaunchScreen.storyboard in Resources */,
 				18B7F1C826FD9D3200BF370B /* Assets.xcassets in Resources */,
 				18B7F1C626FD9D3000BF370B /* Main.storyboard in Resources */,
@@ -258,9 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B7F1C326FD9D3000BF370B /* ViewController.swift in Sources */,
+				18B7F20526FD9F4600BF370B /* AQMViewController.swift in Sources */,
+				18B7F239270011DB00BF370B /* AQMModel.swift in Sources */,
 				18B7F1BF26FD9D3000BF370B /* AppDelegate.swift in Sources */,
+				18B7F22426FDA3D200BF370B /* WebSocketService.swift in Sources */,
+				18B7F23F2700253E00BF370B /* AQMTableCell.swift in Sources */,
+				18B7F21926FDA36000BF370B /* WebSocketServiceProtocol.swift in Sources */,
+				18B7F21026FD9F6D00BF370B /* AQMViewModel.swift in Sources */,
 				18B7F1C126FD9D3000BF370B /* SceneDelegate.swift in Sources */,
+				18B7F24F27009BC800BF370B /* Float+Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.AQM.AQM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,7 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.AQM.AQM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
